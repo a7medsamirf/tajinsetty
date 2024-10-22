@@ -215,6 +215,11 @@
     height: 600px;
   } */
 }
+@media (max-width: 767.98px) {
+  .tc-header-st4 h1 {
+    font-size: 30px;
+  }
+}
 /* --------------- reservation st4 --------------- */
 .tc-reservation-st4 {
   position: relative;
@@ -1688,10 +1693,10 @@
 .menu-icon {
   height: 30px;
   width: 30px;
-  position: fixed;
+  position: relative;
   z-index: 2;
   left: 50px;
-  top: 30px;
+  top: 0px;
   cursor: pointer;
 }
 .menu-icon__line {
