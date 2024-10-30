@@ -204,7 +204,7 @@ $(document).ready(function () {
         // slidesPerView: 5,
         spaceBetween: 15,
         // centeredSlides: true,
-        speed: 2000,
+        speed: 5000,
         autoplay: true,
         pagination: {
             el: '.tc-instagram-st3 .swiper-pagination',
@@ -217,7 +217,7 @@ $(document).ready(function () {
         mousewheel: false,
         keyboard: true,
         autoplay: {
-            delay: 4000,
+            delay: 0,
         },
         loop: true,
         breakpoints: {
@@ -234,7 +234,7 @@ $(document).ready(function () {
                 slidesPerView: 3,
             },
             1200: {
-                slidesPerView: 4,
+                slidesPerView: 5,
             }
         }
     });
@@ -317,3 +317,10 @@ $(document).ready(function () {
       
       init();
     })();
+
+
+
+
+    $(window).scroll(function(){
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+    });

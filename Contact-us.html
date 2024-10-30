@@ -80,39 +80,75 @@
 
     <div id="scrollsmoother-container">
 
-
-        <!--  Start navbar  -->
-        <nav class="navbar navbar-expand-lg navbar-dark tc-navbar-st4">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="assets/img/logo.png" alt="" class="logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto sub-font">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">الرئيسية</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="about-us.html">من نحن</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="Contact-us.html"> اتصل بنا</a>
-                        </li>
-                    </ul>
-                    <div class="social-side justify-content-lg-end">
-                        <div class="phone-link">
-                            <a href="#" class="butn bg-red1 btn-outline-success text-white rounded-pill size-1"> <span>  Doo Catering </span> </a>
-                        </div>
-
-                    </div>
-                </div>
+        <div id="header">
+            <!----------------------------------------
+            Start:  Mobile Menu
+            ---------------------------------------->
+            
+            <div class="nav navbar Mobile-Menu d-md-none">
+              <div class="nav__content">
+                <ul class="nav__list">
+                  <li class="nav__list-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
+                  </li>
+                  <li class="nav__list-item">
+                    <a class="nav-link" href="#about-us">من نحن</a>
+                  </li>
+                  <li class="nav__list-item">
+                    <a class="nav-link" href="Contact-us.html"> اتصل بنا</a>
+                  </li>
+        
+                </ul>
+              </div>
             </div>
-        </nav>
-        <!--  End navbar  -->
+            <!----------------------------------------
+            End:  Mobile Menu
+            ---------------------------------------->
+        
+            
+            <!----------------------------------------
+            Start: navbar
+            ---------------------------------------->
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top tc-navbar-st4"> 
+              
+              <div class="container">
+                <a class="navbar-brand col-lg-3 me-0" href="index.html"> <img class="logo" src="assets/img/logo.png" alt=""> </a>
+        
+                <button class="navbar-toggler menu-icon " type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="menu-icon__line menu-icon__line-left"></span>
+                    <span class="menu-icon__line"></span>
+                    <span class="menu-icon__line menu-icon__line-right"></span>
+                </button>
+                <div class="collapse navbar-collapse d-lg-flex d-none d-lg-block" id="navbarsExample11">
+                  <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-us">من نحن</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials"> عملائنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Contact-us.html"> اتصل بنا</a>
+                    </li>
+                  </ul>
+                <div class="d-lg-flex social-side justify-content-lg-end">
+                    <div class="phone-link">
+                        <a href="#" class="butn bg-red1 btn-outline-success text-white rounded-pill size-1"> <span>  Doo Catering  + </span> </a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </nav>
+        
+            <!----------------------------------------
+            End: navbar
+            ---------------------------------------->
+        
+          </div>
 
         
         <!--  Start header  -->
@@ -140,7 +176,8 @@
                         <div class="row justify-content-between">
                             <div class="col-lg-6">
                                 <div class="contact-info mt-40">
-                                    <h6 class="fsz-50 cr-red1 mb-3"> أتصل بنا </h6>
+                                    <h6 class="fsz-50 cr-red1 mb-3">  معلومات الاتصال
+                                    </h6>
                                     <div class="contact-cards pt-20">
                                         <div class="row">
                                             <div class="col-lg-6">
@@ -149,8 +186,8 @@
                                                         <img src="assets/img/icons/cn1.svg" alt="">
                                                     </div>
                                                     <div class="inf">
-                                                        <p class="fsz-16 mb-1">هاتفنا  </p>
-                                                        <h6 class="fsz-20"> <a href="#"> 01000965611 </a> </h6>
+                                                        <p class="fsz-20 mb-1 fw-900">هاتفنا  </p>
+                                                        <h6 class="fsz-20"> <a href="tel:01000965611"> 01000965611 </a> </h6>
                                                     </div>
                                                 </div>
                                             </div>
@@ -160,8 +197,8 @@
                                                         <img src="assets/img/icons/cn2.svg" alt="">
                                                     </div>
                                                     <div class="inf">
-                                                        <p class="fsz-16 mb-1"> بريدنا </p>
-                                                        <h6 class="fsz-20"> <a href="#"> contact@tajinsetty.com</a> </h6>
+                                                        <p class="fsz-20 mb-1 fw-900"> بريدنا </p>
+                                                        <h6 class="fsz-20"> <a href="mailto: contact@tajinsetty.com"> contact@tajinsetty.com</a> </h6>
                                                     </div>
                                                 </div>
                                             </div>
@@ -171,8 +208,8 @@
                                                         <img src="assets/img/icons/cn3.svg" alt="">
                                                     </div>
                                                     <div class="inf">
-                                                        <p class="fsz-16 mb-1"> موقعنا</p>
-                                                        <h6 class="fsz-20"> <a href="#"> ٧٥ شارع ابو داوود الظاهري - مدينه نصر </a> </h6>
+                                                        <p class="fsz-20 mb-1 fw-900"> موقعنا</p>
+                                                        <h6 class="fsz-20"> <a target="_blank" href="https://www.google.com/maps?q=%D9%85%D8%B7%D8%B9%D9%85+%D8%B7%D8%A7%D8%AC%D9%86+%D8%B3%D8%AA%D9%8A,+%D9%A7%D9%A5+Abou+Dawoud+Al+Zaheri,+Al+Mintaqah+as+S%C4%81disah,+Nasr+City,+Cairo+Governorate+4450454&amp;ftid=0x14583d858388a157:0x75e6f33ea594e26d&amp;entry=gps&amp;lucs=,94242598,94224825,94227247,94227248,47071704,47069508,94218641,94203019,47084304,94208458,94208447&amp;g_ep=CAISDTYuMTM2LjAuODc4MzAYACDXggMqYyw5NDI0MjU5OCw5NDIyNDgyNSw5NDIyNzI0Nyw5NDIyNzI0OCw0NzA3MTcwNCw0NzA2OTUwOCw5NDIxODY0MSw5NDIwMzAxOSw0NzA4NDMwNCw5NDIwODQ1OCw5NDIwODQ0N0ICRUc%3D&amp;g_st=com.google.maps.preview.copy"> ٧٥ شارع ابو داوود الظاهري - مدينه نصر </a> </h6>
                                                     </div>
                                                 </div>
                                             </div>
@@ -182,7 +219,7 @@
                                                         <img src="assets/img/icons/cn4.svg" alt="">
                                                     </div>
                                                     <div class="inf">
-                                                        <p class="fsz-16 mb-1">ساعات العمل</p>
+                                                        <p class="fsz-20 mb-1 fw-900">ساعات العمل</p>
                                                         <h6 class="fsz-20"> <a href="#"> طوال أيام الأسبوع </a> </h6>
                                                         <h6 class="fsz-20"> <a href="#"> ٨:٠٠ ص - ٣:٠٠ ص </a> </h6>
                                                     </div>
@@ -220,7 +257,7 @@
                                         <textarea id="message" type="text" name="message" rows="3" class="form-control"></textarea>
                                     </div>
                                     <!-- Honeypot Spam Protection -->
-                                    <button type="submit" class="butn bg-red1 text-color rounded-pill size-1 hover-bg-black mt-50"> <span> أرسال  + </span> </button>
+                                    <button type="submit" class="butn bg-red1 text-color rounded-pill size-1 hover-bg-black mt-50"> <span> ارسل رسالتك  + </span> </button>
                                     <div class="fsz-20 cr-red1 mt-5" id="result"></div>
 
                                 </form>

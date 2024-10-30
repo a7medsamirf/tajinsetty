@@ -227,7 +227,24 @@ $(function () {
 
 
 
-
+	//Parallax Scene for Icons
+	if($('.parallax-scene-1').length){
+		var scene = $('.parallax-scene-1').get(0);
+		var parallaxInstance = new Parallax(scene);
+	}
+	if($('.parallax-scene-2').length){
+		var scene = $('.parallax-scene-2').get(0);
+		var parallaxInstance = new Parallax(scene);
+	}
+	if($('.parallax-scene-3').length){
+		var scene = $('.parallax-scene-3').get(0);
+		var parallaxInstance = new Parallax(scene);
+	}
+	if($('.parallax-scene-4').length){
+		var scene = $('.parallax-scene-4').get(0);
+		var parallaxInstance = new Parallax(scene);
+	}
+	
 
 
 

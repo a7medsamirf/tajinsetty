@@ -3,10 +3,10 @@
 /* ========= [ * variable ]  =========*/
 /* --------------- variable --------------- */
 :root {
-  --ts-red1: #2daf4f;
+  --ts-primary: #2daf4f;
   --ts-brown1: #00432d;
   --ts-orange1: #FE7F32;
-  --ts-dark1: #171717;
+  --ts-dark1: rgb(21 21 22);
   --ts-light1: #fdf1e3;
   --ts-light2: #D9D9D9;
 }
@@ -16,24 +16,24 @@
 }
 
 .cr-red1 {
-  color: var(--ts-red1) !important;
+  color: var(--ts-primary) !important;
 }
 
 .bg-red1 {
-  background: var(--ts-red1) !important;
+  background: var(--ts-primary) !important;
 }
 
 .border-red1 {
-  border-color: var(--ts-red1) !important;
+  border-color: var(--ts-primary) !important;
 }
 
 .hover-red1:hover {
-  color: var(--ts-red1) !important;
+  color: var(--ts-primary) !important;
 }
 
 .hover-bg-red1:hover {
-  background: var(--ts-red1) !important;
-  border-color: var(--ts-red1) !important;
+  background: var(--ts-primary) !important;
+  border-color: var(--ts-primary) !important;
   color: #fff !important;
 }
 
@@ -730,7 +730,7 @@ small.text {
   width: 8px;
   height: 8px;
   z-index: 10000001;
-  background-color: var(--ts-red1);
+  background-color: var(--ts-primary);
   -webkit-transition: width 0.3s ease-in-out, height 0.3s ease-in-out, margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
   transition: width 0.3s ease-in-out, height 0.3s ease-in-out, margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
   display: none;
@@ -765,7 +765,7 @@ small.text {
   margin-top: -30px;
   width: 60px;
   height: 60px;
-  background-color: var(--ts-red1) !important;
+  background-color: var(--ts-primary) !important;
   opacity: 0.3 !important;
 }
 
@@ -859,8 +859,8 @@ input:focus {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  color: #999;
-  border: 1px solid #999;
+  color: var(--ts-primary);
+  border: 1px solid var(--ts-primary);
   font-size: 11px;
   text-align: center;
   padding: 7px;
@@ -1873,9 +1873,7 @@ input:focus {
   background-color: #000 !important;
 }
 
-.bg-dark1 {
-  background-color: #2e2e31 !important;
-}
+
 
 /* --------------- icons size --------------- */
 .icon-3 {
@@ -2026,8 +2024,8 @@ input:focus {
 }
 
 .img-title {
-  width: 70px;
-  height: 70px;
+  width: 85px;
+  height: 85px;
 }
 
 .imgrotate-scale-hover {
